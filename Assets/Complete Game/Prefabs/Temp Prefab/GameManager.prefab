@@ -1,0 +1,210 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1797449610081826}
+  m_IsPrefabParent: 1
+--- !u!1 &1797449610081826
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4630644861232584}
+  - component: {fileID: 114740140009246784}
+  - component: {fileID: 114405096613947142}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4630644861232584
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1797449610081826}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.76, y: -0.55, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114405096613947142
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1797449610081826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f5afe41dba1d404192c23fcf44098c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mapGround: {fileID: 2800000, guid: 7ebbb79fb24146641b4b487f0878a226, type: 3}
+  mapTree: {fileID: 2800000, guid: 3f59a4e54806ea44fb9bce9b41458072, type: 3}
+  mapEnvironmentObject: {fileID: 2800000, guid: 20fdd35a44de3b342a3fbcc43ef3b516,
+    type: 3}
+  colorMappings:
+  - tile: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    tileObject: {fileID: 1157949015853912, guid: 6895b934c4baac644839588f225e208a,
+      type: 2}
+  - tile: 40
+    color: {r: 0.92156863, g: 0.6862745, b: 0.05882353, a: 1}
+    tileObject: {fileID: 1173239770868326, guid: 9bc692bfe97923b428b040c48ae436df,
+      type: 2}
+  - tile: 41
+    color: {r: 0.21568628, g: 0.4117647, b: 0.05882353, a: 1}
+    tileObject: {fileID: 1791334473357656, guid: 521f306ecfb42d64a8fc49cebaf0a8b3,
+      type: 2}
+  - tile: 1
+    color: {r: 0.4, g: 0, b: 0.3764706, a: 1}
+    tileObject: {fileID: 1395953196850418, guid: 7177eda6f84b13f4889ad590c5de9e3d,
+      type: 2}
+  - tile: 2
+    color: {r: 0.7019608, g: 0, b: 0.654902, a: 1}
+    tileObject: {fileID: 1606030075556710, guid: 7177eda6f84b13f4889ad590c5de9e3d,
+      type: 2}
+  - tile: 3
+    color: {r: 1, g: 0, b: 0.9411765, a: 1}
+    tileObject: {fileID: 1915576931360704, guid: 7177eda6f84b13f4889ad590c5de9e3d,
+      type: 2}
+  - tile: 4
+    color: {r: 1, g: 0.29803923, b: 0.9529412, a: 1}
+    tileObject: {fileID: 1647188555245784, guid: 7177eda6f84b13f4889ad590c5de9e3d,
+      type: 2}
+  - tile: 5
+    color: {r: 1, g: 0.6, b: 0.9764706, a: 1}
+    tileObject: {fileID: 1684772117851406, guid: 7177eda6f84b13f4889ad590c5de9e3d,
+      type: 2}
+  - tile: 6
+    color: {r: 0.4, g: 0, b: 0, a: 1}
+    tileObject: {fileID: 1331407604058364, guid: 7177eda6f84b13f4889ad590c5de9e3d,
+      type: 2}
+  - tile: 7
+    color: {r: 0.7019608, g: 0, b: 0, a: 1}
+    tileObject: {fileID: 1618070055438934, guid: 7177eda6f84b13f4889ad590c5de9e3d,
+      type: 2}
+  - tile: 8
+    color: {r: 1, g: 0, b: 0, a: 1}
+    tileObject: {fileID: 1155966655404340, guid: 7177eda6f84b13f4889ad590c5de9e3d,
+      type: 2}
+  - tile: 9
+    color: {r: 1, g: 0.29803923, b: 0.29803923, a: 1}
+    tileObject: {fileID: 1618574853136744, guid: 7177eda6f84b13f4889ad590c5de9e3d,
+      type: 2}
+  - tile: 10
+    color: {r: 1, g: 0.6, b: 0.6, a: 1}
+    tileObject: {fileID: 1904947295176454, guid: 7177eda6f84b13f4889ad590c5de9e3d,
+      type: 2}
+  - tile: 11
+    color: {r: 0, g: 0.39607844, b: 0.4, a: 1}
+    tileObject: {fileID: 1596810536362460, guid: 7177eda6f84b13f4889ad590c5de9e3d,
+      type: 2}
+  - tile: 12
+    color: {r: 0, g: 0.69803923, b: 0.7019608, a: 1}
+    tileObject: {fileID: 1475723681451390, guid: 7177eda6f84b13f4889ad590c5de9e3d,
+      type: 2}
+  - tile: 13
+    color: {r: 0, g: 0.99215686, b: 1, a: 1}
+    tileObject: {fileID: 1914995960374102, guid: 7177eda6f84b13f4889ad590c5de9e3d,
+      type: 2}
+  - tile: 14
+    color: {r: 0.29803923, g: 0.99607843, b: 1, a: 1}
+    tileObject: {fileID: 1200994661428174, guid: 7177eda6f84b13f4889ad590c5de9e3d,
+      type: 2}
+  - tile: 15
+    color: {r: 0.6, g: 0.99607843, b: 1, a: 1}
+    tileObject: {fileID: 1122053464177390, guid: 7177eda6f84b13f4889ad590c5de9e3d,
+      type: 2}
+  - tile: 16
+    color: {r: 0.4, g: 0.22745098, b: 0, a: 1}
+    tileObject: {fileID: 1203873056817808, guid: 7177eda6f84b13f4889ad590c5de9e3d,
+      type: 2}
+  - tile: 17
+    color: {r: 0.7019608, g: 0.39607844, b: 0, a: 1}
+    tileObject: {fileID: 1285334003924894, guid: 7177eda6f84b13f4889ad590c5de9e3d,
+      type: 2}
+  - tile: 19
+    color: {r: 1, g: 0.69411767, b: 0.29803923, a: 1}
+    tileObject: {fileID: 1199070044333136, guid: 7177eda6f84b13f4889ad590c5de9e3d,
+      type: 2}
+  - tile: 20
+    color: {r: 1, g: 0.827451, b: 0.6, a: 1}
+    tileObject: {fileID: 1962375651706574, guid: 7177eda6f84b13f4889ad590c5de9e3d,
+      type: 2}
+  - tile: 21
+    color: {r: 0.34901962, g: 0.4, b: 0, a: 1}
+    tileObject: {fileID: 1291595110011564, guid: 7177eda6f84b13f4889ad590c5de9e3d,
+      type: 2}
+  - tile: 22
+    color: {r: 0.60784316, g: 0.7019608, b: 0, a: 1}
+    tileObject: {fileID: 1215398425268026, guid: 7177eda6f84b13f4889ad590c5de9e3d,
+      type: 2}
+  - tile: 23
+    color: {r: 0.87058824, g: 1, b: 0, a: 1}
+    tileObject: {fileID: 1073678687003072, guid: 7177eda6f84b13f4889ad590c5de9e3d,
+      type: 2}
+  - tile: 24
+    color: {r: 0.90588236, g: 1, b: 0.29803923, a: 1}
+    tileObject: {fileID: 1516191394549334, guid: 7177eda6f84b13f4889ad590c5de9e3d,
+      type: 2}
+  - tile: 25
+    color: {r: 0.9490196, g: 1, b: 0.6, a: 1}
+    tileObject: {fileID: 1579684710633210, guid: 7177eda6f84b13f4889ad590c5de9e3d,
+      type: 2}
+  - tile: 26
+    color: {r: 0, g: 0.4, b: 0, a: 1}
+    tileObject: {fileID: 1909005512280058, guid: 7177eda6f84b13f4889ad590c5de9e3d,
+      type: 2}
+  - tile: 27
+    color: {r: 0, g: 0.7019608, b: 0, a: 1}
+    tileObject: {fileID: 1808461685662900, guid: 7177eda6f84b13f4889ad590c5de9e3d,
+      type: 2}
+  - tile: 28
+    color: {r: 0, g: 1, b: 0, a: 1}
+    tileObject: {fileID: 1909692816644484, guid: 7177eda6f84b13f4889ad590c5de9e3d,
+      type: 2}
+  - tile: 29
+    color: {r: 0.29803923, g: 1, b: 0.29803923, a: 1}
+    tileObject: {fileID: 1422408122597910, guid: 7177eda6f84b13f4889ad590c5de9e3d,
+      type: 2}
+  - tile: 30
+    color: {r: 0.6, g: 1, b: 0.6, a: 1}
+    tileObject: {fileID: 1533541804452770, guid: 7177eda6f84b13f4889ad590c5de9e3d,
+      type: 2}
+  - tile: 31
+    color: {r: 0, g: 0, b: 0.4, a: 1}
+    tileObject: {fileID: 1937885155136868, guid: 7177eda6f84b13f4889ad590c5de9e3d,
+      type: 2}
+  - tile: 33
+    color: {r: 0, g: 0, b: 1, a: 1}
+    tileObject: {fileID: 1466981994577820, guid: 7177eda6f84b13f4889ad590c5de9e3d,
+      type: 2}
+  - tile: 34
+    color: {r: 0.6, g: 0.6, b: 1, a: 1}
+    tileObject: {fileID: 1903931007610388, guid: 7177eda6f84b13f4889ad590c5de9e3d,
+      type: 2}
+--- !u!114 &114740140009246784
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1797449610081826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f1c7adfd7865de49b01afa8d7280671, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

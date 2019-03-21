@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - Katana
+  - BlockingLayer
+  - Item
+  - EnemyAttackArea
+  - TeaHouse
+  - Entrance
+  - PlayerCombo
+  - MainUI
+  - RangeAttack
+  - Boulder
+  - Pillar
+  - Bush
+  - SpawnManager
+  - PuzzleSimultaneous
+  - Gear
+  - Fire
+  - Wreckage
+  - SoundManager
+  - ObjectPoolManager
+  - SpawnPoint1
+  - PausePopUp
+  - SpawnPoint2
+  - SpawnPoint3
+  - SpawnPoint4
+  - SpawnPoint5
+  - SpawnPoint6
+  - SpawnPoint7
+  - SpawnPoint8
+  - SpawnPoint9
+  - SpawnPoint10
+  - SpawnPoint11
+  - Entrance1
+  - Entrance2
+  - Entrance3
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - BlockingLayer
+  - Floor
+  - Items
+  - Units Layer
+  - Player
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Floor
+    uniqueID: 2428221337
+    locked: 0
+  - name: Items
+    uniqueID: 1552342531
+    locked: 0
+  - name: Unit
+    uniqueID: 4161970269
+    locked: 0
+  - name: Rooftop
+    uniqueID: 1879766225
+    locked: 0

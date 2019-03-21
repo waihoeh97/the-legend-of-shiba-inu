@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Complete Game/Scenes/MainMenu.unity
+    guid: 11380304153a6e942a7e450491644794
+  - enabled: 1
+    path: Assets/Complete Game/Scenes/TutorialLevel.unity
+    guid: 0b04e481f34daad43a5ae68be47dd4a8
+  - enabled: 1
+    path: Assets/Complete Game/Scenes/TransitionLevel.unity
+    guid: 31ff181f0536b6943ac22112e50132ca
+  - enabled: 1
+    path: Assets/Complete Game/Scenes/TryLevel.unity
+    guid: 3e6de00465d467740ab9279d2857c99b
+  - enabled: 1
+    path: Assets/Complete Game/Scenes/EndScene.unity
+    guid: 006c76d0854ab6a4faba69e2f5c9b232
